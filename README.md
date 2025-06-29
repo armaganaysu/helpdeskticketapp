@@ -22,9 +22,21 @@ Projeyi çalıştırmadan önce makinenizde MongoDB Community Server ve node.js 
     `backend` klasörü içinde `.env` adında bir dosya oluşturun ve içeriğini aşağıdaki gibi doldurun:
     ```
     MONGO_URI=mongodb://127.0.0.1:27017/help-desk-db
+    ```
+    
+    ```
     PORT=8000
     ```
 
+**Backend sunucusunu başlatın:**
+  ```
+  npm run dev:backend
+  ```
+
+**Frontend sunucusunu başlatın:**
+  ```
+  npm run dev:frontend
+  ```
 
 ## Projenin Kapsamı
 Uygulamanın mevcut sürümü aşağıdaki özellikleri içermektedir:
