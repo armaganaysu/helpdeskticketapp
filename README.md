@@ -1,7 +1,7 @@
 # Yardım Masası (Help Desk) Uygulaması
 Bu proje, kurum içi destek taleplerinin kaydedilmesi, takibi ve yönetilmesi için geliştirilmiş bir fullstack uygulamasıdır.
 
-## ürün stacki
+## Ürün stacki
 - **Backend**
   - Node.js
   - Express.js
@@ -14,10 +14,10 @@ Bu proje, kurum içi destek taleplerinin kaydedilmesi, takibi ve yönetilmesi i�
   - MongoDB
 
 ## Kurulum ve Çalıştırma
+Projeyi çalıştırmadan önce makinenizde MongoDB Community Server ve node.js bulunmlıdır.
 **Kurulum**
-    Gerekli tüm paketleri (backend, frontend) yüklemek için ana dizindeyken npm run install-all komutunu çalıştırın:
+    Gerekli tüm paketleri (backend, frontend) yüklemek için ana dizindeyken npm run install-all komutunu çalıştırın
     
-
  **Backend Environment Variables**
     `backend` klasörü içinde `.env` adında bir dosya oluşturun ve içeriğini aşağıdaki gibi doldurun:
     ```
@@ -27,7 +27,7 @@ Bu proje, kurum içi destek taleplerinin kaydedilmesi, takibi ve yönetilmesi i�
 
 
 ## Projenin Kapsamı
-Uygulamanın mevcut sürümü aşağıdaki temel özellikleri içermektedir:
+Uygulamanın mevcut sürümü aşağıdaki özellikleri içermektedir:
 - Destek talebi oluşturma
 - Tüm destek taleplerini listeleme
 - Mevcut bir talebi güncelleme
